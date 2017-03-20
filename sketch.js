@@ -24,14 +24,14 @@ function flower(x,y){
     
     //pedals
     noStroke();
-    fill(300,30,50)
+    fill(300,0,100);
     ellipse(x+10,y-10,40,40);
     ellipse(x+10,y+10,40,40);
     ellipse(x-10,y-10,40,40);
     ellipse(x-10,y+10,40,40);
 
     //bulb 
-    fill(250,100,100);
+    fill(20,100,20);
     ellipse(x,y,25,25);
 
 }
